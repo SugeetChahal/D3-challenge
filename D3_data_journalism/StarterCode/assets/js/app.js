@@ -406,9 +406,9 @@ xLabels.selectAll("text")
 };
 
 // Load data from data.csv
-d3.csv("/assets/data/data.csv").then((data, error) => {
+d3.csv("assets/data/data.csv").then((data, error) => {
     // Throw an error if one occurs
-    if (error) throw error;
+    
   
     // Parse data: Cast the data values to a number
     data.forEach(d => {
